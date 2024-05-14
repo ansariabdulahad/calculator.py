@@ -1,5 +1,5 @@
 # common function for calculator
-def calculator(num1, operator, num2) :
+def calculator(num1=0, operator="", num2=0) :
     match operator :
         case '+' : return num1 + num2
         case '-' : return num1 - num2
